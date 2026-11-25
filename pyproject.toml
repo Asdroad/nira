@@ -1,0 +1,15 @@
+[project]
+name = "nira-platform"
+version = "0.2.0"
+description = "NIRA organization procurement and sales workspace"
+requires-python = ">=3.12"
+dynamic = ["dependencies"]
+
+[tool.pytest.ini_options]
+testpaths = ["backend/tests"]
+pythonpath = ["."]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"

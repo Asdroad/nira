@@ -1,0 +1,11 @@
+.search-source-reports{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;margin:20px 0}
+.search-source-report,.search-result-card{padding:18px;border:1px solid var(--border,#e4e7ec);border-radius:12px;background:var(--surface,#fff)}
+.search-source-report>strong{display:block;margin-bottom:10px}
+.search-source-report>.status{display:inline-block;margin-bottom:4px}
+.search-source-report>.button{display:block;width:max-content;max-width:100%;margin-top:12px}
+.search-source-report p,.search-result-card p{margin:10px 0;line-height:1.6;overflow-wrap:anywhere}
+.search-result-list{display:grid;gap:14px}.search-result-card .panel-head{gap:16px;align-items:flex-start;margin-bottom:8px}.search-result-card .panel-head strong{line-height:1.5}
+.search-result-title{color:var(--accent,#176e59);text-decoration:underline;text-underline-offset:3px}
+.search-result-card{scroll-margin-top:24px}.search-result-card:focus{outline:2px solid var(--accent,#176e59);outline-offset:3px}
+.search-result-card>.button{display:inline-flex;margin-top:8px}
+.search-results-heading{margin:24px 0 14px}

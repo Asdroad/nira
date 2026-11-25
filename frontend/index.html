@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#142c2b">
+  <meta name="description" content="NIRA — рабочее пространство закупок и продаж организации">
+  <title>NIRA — Закупки и продажи</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="refinements.css">
+  <link rel="stylesheet" href="runtime.css">
+  <script src="helpers.js" defer></script>
+  <script src="search.js?v=20261011-ai7"></script>
+<script src="ai.js?v=20261011-ai7" defer></script>
+<script src="app.js?v=20261011-ai7" defer></script>
+<link rel="stylesheet" href="ai.css?v=20261011-ai7">
+<link rel="stylesheet" href="search.css?v=20261011-ai7">
+</head>
+<body>
+  <a class="skip-link" href="#main">К содержимому</a>
+  <div id="auth"></div>
+  <div class="app-shell" id="shell" hidden>
+    <aside class="sidebar" id="sidebar" aria-label="Навигация приложения"></aside>
+    <div class="workspace">
+      <header class="topbar" id="topbar"></header>
+      <main id="main" tabindex="-1"></main>
+      <footer class="app-footer" id="footer"></footer>
+    </div>
+  </div>
+  <dialog id="modal" class="modal"></dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
